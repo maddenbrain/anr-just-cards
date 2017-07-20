@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/green_400</color>
+    <color name="colorPrimaryDark">@color/green_700</color>
+    <color name="colorAccent">@color/amber_200</color>
+
+    <item name="green_50"               type="color">#FFE8F5E9</item>
+    <item name="green_100"              type="color">#FFC8E6C9</item>
+    <item name="green_200"              type="color">#FFA5D6A7</item>
+    <item name="green_300"              type="color">#FF81C784</item>
+    <item name="green_400"              type="color">#FF66BB6A</item>
+    <item name="green_500"              type="color">#FF4CAF50</item>
+    <item name="green_600"              type="color">#FF43A047</item>
+    <item name="green_700"              type="color">#FF388E3C</item>
+    <item name="green_800"              type="color">#FF2E7D32</item>
+    <item name="green_900"              type="color">#FF1B5E20</item>
+
+    <item name="amber_50"               type="color">#FFFFF8E1</item>
+    <item name="amber_100"              type="color">#FFFFECB3</item>
+    <item name="amber_200"              type="color">#FFFFE082</item>
+    <item name="amber_300"              type="color">#FFFFD54F</item>
+    <item name="amber_400"              type="color">#FFFFCA28</item>
+    <item name="amber_500"              type="color">#FFFFC107</item>
+    <item name="amber_600"              type="color">#FFFFB300</item>
+    <item name="amber_700"              type="color">#FFFFA000</item>
+    <item name="amber_800"              type="color">#FFFF8F00</item>
+    <item name="amber_900"              type="color">#FFFF6F00</item>
+</resources>

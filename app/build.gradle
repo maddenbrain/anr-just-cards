@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "25.0.3"
+    defaultConfig {
+        applicationId "com.madden.anrjustcards"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+    lintOptions {
+        disable 'RtlHardcoded','RtlSymmetry','ContentDescription'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    supportVer = '26.0.0-alpha1'
+    rxAndroidVer = '1.2.1'
+    rxJavaVer = '1.3.0'
+    retrofitVer = '2.3.0'
+    butterknifeVer = '8.7.0'
+    glideVer = '4.0.0-RC1'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile 'com.android.support:support-v4:' + project.ext.supportVer
+    compile 'com.android.support:appcompat-v7:' + project.ext.supportVer
+    compile 'com.android.support:recyclerview-v7:' + project.ext.supportVer
+    compile 'com.android.support:cardview-v7:' + project.ext.supportVer
+
+    compile 'io.reactivex:rxandroid:' + project.ext.rxAndroidVer
+    compile 'io.reactivex:rxjava:' + project.ext.rxJavaVer
+
+    compile 'com.squareup.retrofit2:retrofit:' + project.ext.retrofitVer
+    compile 'com.squareup.retrofit2:converter-gson:' + project.ext.retrofitVer
+    compile 'com.squareup.retrofit2:adapter-rxjava:' + project.ext.retrofitVer
+
+    compile 'com.jakewharton:butterknife:' + project.ext.butterknifeVer
+    annotationProcessor 'com.jakewharton:butterknife-compiler:' + project.ext.butterknifeVer
+
+    compile 'com.github.bumptech.glide:glide:' + project.ext.glideVer
+    annotationProcessor 'com.github.bumptech.glide:compiler:' + project.ext.glideVer
+}
