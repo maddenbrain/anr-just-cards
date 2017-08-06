@@ -39,6 +39,7 @@ ext {
     butterknifeVer = '8.7.0'
     glideVer = '4.0.0-RC1'
     guavaVer = '22.0-android'
+    timberVer = '4.5.1'
 }
 
 dependencies {
@@ -63,4 +64,6 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:' + project.ext.glideVer
 
     compile 'com.google.guava:guava:' + project.ext.guavaVer
+
+    compile 'com.jakewharton.timber:timber:' + project.ext.timberVer
 }

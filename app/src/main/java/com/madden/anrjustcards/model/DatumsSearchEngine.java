@@ -9,6 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import timber.log.Timber;
+
 
 public class DatumsSearchEngine {
     private static final String SPLIT_REGEX = "\\,|\\;";
@@ -31,6 +33,8 @@ public class DatumsSearchEngine {
 
 
     public static Predicate generatePredicate(String query) {
+        Timber.d("generatePredicate from %s", query);
+
         if (!query.contains(SPLIT_REGEX) && !query.contains(SPLIT_COMMAND)) {
             DatumPredicate predicate = new DatumPredicate.Name();
             predicate.setQuery(query);

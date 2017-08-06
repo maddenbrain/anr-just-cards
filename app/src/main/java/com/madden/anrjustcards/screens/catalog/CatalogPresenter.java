@@ -9,6 +9,7 @@ import rx.Observable;
 import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
+import timber.log.Timber;
 
 
 public class CatalogPresenter implements CatalogContract.Presenter {
@@ -44,6 +45,8 @@ public class CatalogPresenter implements CatalogContract.Presenter {
                         Cards resCards = new Cards();
                         resCards.imageUrlTemplate = cards.imageUrlTemplate;
                         resCards.data = result;
+
+                        Timber.d("Found %s cards", result.size());
 
                         view.onCardsReceived(resCards);
                     });
