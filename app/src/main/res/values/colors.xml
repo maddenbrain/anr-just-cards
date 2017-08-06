@@ -4,6 +4,64 @@
     <color name="colorPrimaryDark">@color/green_700</color>
     <color name="colorAccent">@color/amber_200</color>
 
+    <!-- common colors -->
+    <item name="transparent"            type="color">#00FFFFFF</item>
+    <item name="black"                  type="color">#FF000000</item>
+    <item name="grey"                   type="color">#FF888888</item>
+    <item name="white"                  type="color">#FFFFFFFF</item>
+    <item name="blue"                   type="color">#FF0000FF</item>
+    <item name="green"                  type="color">#FF00FF00</item>
+    <item name="red"                    type="color">#FFFF0000</item>
+    <item name="purple"                 type="color">#FFFF00FF</item>
+    <item name="light_blue"             type="color">#FF00FFFF</item>
+    <item name="yellow"                 type="color">#FFFFFF00</item>
+
+    <!-- material colors -->
+    <item name="blue_grey_50"           type="color">#FFECEFF1</item>
+    <item name="blue_grey_100"          type="color">#FFCFD8DC</item>
+    <item name="blue_grey_200"          type="color">#FFB0BEC5</item>
+    <item name="blue_grey_300"          type="color">#FF90A4AE</item>
+    <item name="blue_grey_400"          type="color">#FF78909C</item>
+    <item name="blue_grey_500"          type="color">#FF607D8B</item>
+    <item name="blue_grey_600"          type="color">#FF546E7A</item>
+    <item name="blue_grey_700"          type="color">#FF455A64</item>
+    <item name="blue_grey_800"          type="color">#FF37474F</item>
+    <item name="blue_grey_900"          type="color">#FF263238</item>
+
+
+    <item name="grey_50"                type="color">#FFFAFAFA</item>
+    <item name="grey_100"               type="color">#FFF5F5F5</item>
+    <item name="grey_200"               type="color">#FFEEEEEE</item>
+    <item name="grey_300"               type="color">#FFE0E0E0</item>
+    <item name="grey_400"               type="color">#FFBDBDBD</item>
+    <item name="grey_500"               type="color">#FF9E9E9E</item>
+    <item name="grey_600"               type="color">#FF757575</item>
+    <item name="grey_700"               type="color">#FF616161</item>
+    <item name="grey_800"               type="color">#FF424242</item>
+    <item name="grey_900"               type="color">#FF212121</item>
+
+    <item name="red_50"                 type="color">#FFFFEBEE</item>
+    <item name="red_100"                type="color">#FFFFCDD2</item>
+    <item name="red_200"                type="color">#FFEF9A9A</item>
+    <item name="red_300"                type="color">#FFE57373</item>
+    <item name="red_400"                type="color">#FFEF5350</item>
+    <item name="red_500"                type="color">#FFF44336</item>
+    <item name="red_600"                type="color">#FFE53935</item>
+    <item name="red_700"                type="color">#FFD32F2F</item>
+    <item name="red_800"                type="color">#FFC62828</item>
+    <item name="red_900"                type="color">#FFB71C1C</item>
+
+    <item name="lime_50"                type="color">#FFF9FBE7</item>
+    <item name="lime_100"               type="color">#FFF0F4C3</item>
+    <item name="lime_200"               type="color">#FFE6EE9C</item>
+    <item name="lime_300"               type="color">#FFDCE775</item>
+    <item name="lime_400"               type="color">#FFD4E157</item>
+    <item name="lime_500"               type="color">#FFCDDC39</item>
+    <item name="lime_600"               type="color">#FFC0CA33</item>
+    <item name="lime_700"               type="color">#FFAFB42B</item>
+    <item name="lime_800"               type="color">#FF9E9D24</item>
+    <item name="lime_900"               type="color">#FF827717</item>
+
     <item name="green_50"               type="color">#FFE8F5E9</item>
     <item name="green_100"              type="color">#FFC8E6C9</item>
     <item name="green_200"              type="color">#FFA5D6A7</item>
@@ -15,6 +73,17 @@
     <item name="green_800"              type="color">#FF2E7D32</item>
     <item name="green_900"              type="color">#FF1B5E20</item>
 
+    <item name="yellow_50"              type="color">#FFFFFDE7</item>
+    <item name="yellow_100"             type="color">#FFFFF9C4</item>
+    <item name="yellow_200"             type="color">#FFFFF59D</item>
+    <item name="yellow_300"             type="color">#FFFFF176</item>
+    <item name="yellow_400"             type="color">#FFFFEE58</item>
+    <item name="yellow_500"             type="color">#FFFFEB3B</item>
+    <item name="yellow_600"             type="color">#FFFDD835</item>
+    <item name="yellow_700"             type="color">#FFFBC02D</item>
+    <item name="yellow_800"             type="color">#FFF9A825</item>
+    <item name="yellow_900"             type="color">#FFF57F17</item>
+
     <item name="amber_50"               type="color">#FFFFF8E1</item>
     <item name="amber_100"              type="color">#FFFFECB3</item>
     <item name="amber_200"              type="color">#FFFFE082</item>
@@ -25,4 +94,5 @@
     <item name="amber_700"              type="color">#FFFFA000</item>
     <item name="amber_800"              type="color">#FFFF8F00</item>
     <item name="amber_900"              type="color">#FFFF6F00</item>
+
 </resources>

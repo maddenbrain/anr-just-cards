@@ -53,6 +53,15 @@ public class Datum {
     @SerializedName("uniqueness")
     @Expose
     public boolean uniqueness;
+    @SerializedName("advancement_cost")
+    @Expose
+    public int advancementCost;
+    @SerializedName("agenda_points")
+    @Expose
+    public int agendaPoints;
+    @SerializedName("trash_cost")
+    @Expose
+    public int trashCost;
     @SerializedName("base_link")
     @Expose
     public int baseLink;

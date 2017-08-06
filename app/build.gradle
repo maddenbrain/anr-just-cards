@@ -38,6 +38,7 @@ ext {
     retrofitVer = '2.3.0'
     butterknifeVer = '8.7.0'
     glideVer = '4.0.0-RC1'
+    guavaVer = '22.0-android'
 }
 
 dependencies {
@@ -60,4 +61,6 @@ dependencies {
 
     compile 'com.github.bumptech.glide:glide:' + project.ext.glideVer
     annotationProcessor 'com.github.bumptech.glide:compiler:' + project.ext.glideVer
+
+    compile 'com.google.guava:guava:' + project.ext.guavaVer
 }
