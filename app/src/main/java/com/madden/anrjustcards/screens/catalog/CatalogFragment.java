@@ -68,8 +68,7 @@ public class CatalogFragment extends Fragment implements CatalogContract.View {
 
             @Override
             public boolean onQueryTextChange(String newText) {
-                if (!newText.isEmpty())
-                    searchObservable.onNext(newText);
+                searchObservable.onNext(newText);
                 return true;
             }
         });
