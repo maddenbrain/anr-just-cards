@@ -1,0 +1,44 @@
+ext {
+    actualSdkVersion = 27
+    buildToolsVersion = "26.0.2"
+    minSdkVersion = 21
+
+    supportVer = '27.0.0'
+    rxAndroidVer = '1.2.1'
+    rxJavaVer = '1.3.0'
+    retrofitVer = '2.3.0'
+    gsonVer = '2.8.2'
+    commonIOVer = '2.6'
+    guavaVer = '23.2-android'
+    butterknifeVer = '8.8.1'
+    timberVer = '4.5.1'
+    disklruVer = '2.0.2'
+    glideVer = '4.2.0'
+
+    dependency = [
+            supportV4         : 'com.android.support:support-v4:' + rootProject.supportVer,
+            supportAppcompatV7: 'com.android.support:appcompat-v7:' + rootProject.supportVer,
+            supportRecyclerV7 : 'com.android.support:recyclerview-v7:' + rootProject.supportVer,
+            cardviewV7        : 'com.android.support:cardview-v7:' + rootProject.supportVer,
+
+            rxAndroid         : 'io.reactivex:rxandroid:' + rootProject.rxAndroidVer,
+            rxJava            : 'io.reactivex:rxjava:' + rootProject.rxJavaVer,
+
+            retrofit2         : 'com.squareup.retrofit2:retrofit:' + rootProject.retrofitVer,
+            retrofit2Gson     : 'com.squareup.retrofit2:converter-gson:' + rootProject.retrofitVer,
+            retrofit2rxAdapter: 'com.squareup.retrofit2:adapter-rxjava:' + rootProject.retrofitVer,
+
+            gson              : 'com.google.code.gson:gson:' + rootProject.gsonVer,
+
+            commonsIO         : 'commons-io:commons-io:' + rootProject.commonIOVer,
+
+            guava             : 'com.google.guava:guava:' + rootProject.guavaVer,
+
+            butterKnife       : 'com.jakewharton:butterknife:' + rootProject.butterknifeVer,
+            timber            : 'com.jakewharton.timber:timber:' + rootProject.timberVer,
+
+            disklru           : 'com.jakewharton:disklrucache:' + rootProject.disklruVer,
+
+            glide             : 'com.github.bumptech.glide:glide:' + rootProject.glideVer
+    ]
+}
