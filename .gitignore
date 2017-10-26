@@ -57,3 +57,4 @@ freeline_project_description.json
 gradlew.bat
 gradle/wrapper/gradle-wrapper.jar
 gradlew
+gradle/
