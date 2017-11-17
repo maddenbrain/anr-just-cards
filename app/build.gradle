@@ -29,9 +29,11 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
     compile dependency.supportV4
+    compile dependency.supportDesign
     compile dependency.supportAppcompatV7
     compile dependency.supportRecyclerV7
     compile dependency.cardviewV7
+    compile dependency.constraintLayout
 
     compile dependency.rxAndroid
     compile dependency.rxJava

@@ -4,6 +4,7 @@ ext {
     minSdkVersion = 21
 
     supportVer = '27.0.0'
+    constraintVer = '1.0.2'
     rxAndroidVer = '1.2.1'
     rxJavaVer = '1.3.0'
     retrofitVer = '2.3.0'
@@ -17,9 +18,12 @@ ext {
 
     dependency = [
             supportV4         : 'com.android.support:support-v4:' + rootProject.supportVer,
+            supportDesign     : 'com.android.support:design:' + rootProject.supportVer,
             supportAppcompatV7: 'com.android.support:appcompat-v7:' + rootProject.supportVer,
             supportRecyclerV7 : 'com.android.support:recyclerview-v7:' + rootProject.supportVer,
             cardviewV7        : 'com.android.support:cardview-v7:' + rootProject.supportVer,
+
+            constraintLayout  : 'com.android.support.constraint:constraint-layout:' + rootProject.constraintVer,
 
             rxAndroid         : 'io.reactivex:rxandroid:' + rootProject.rxAndroidVer,
             rxJava            : 'io.reactivex:rxjava:' + rootProject.rxJavaVer,
